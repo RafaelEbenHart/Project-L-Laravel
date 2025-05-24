@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\wisata;
+use App\Models\pengguna;
 use Illuminate\Http\Request;
 
-class WisataController extends Controller
+class PenggunaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class WisataController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(wisata $wisata)
+    public function show(pengguna $pengguna)
     {
         //
     }
@@ -42,7 +42,7 @@ class WisataController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(wisata $wisata)
+    public function edit(pengguna $pengguna)
     {
         //
     }
@@ -50,7 +50,7 @@ class WisataController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, wisata $wisata)
+    public function update(Request $request, pengguna $pengguna)
     {
         //
     }
@@ -58,7 +58,7 @@ class WisataController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(wisata $wisata)
+    public function destroy(pengguna $pengguna)
     {
         //
     }
